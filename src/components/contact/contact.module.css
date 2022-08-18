@@ -1,0 +1,77 @@
+.c{
+    height: 100vh;
+    position: relative;
+}
+.c-bg{
+    width: 20px;
+    height: 100%;
+    background-color:#edaff6;
+    position: absolute;
+}
+.c-wrapper{
+    padding: 50px;
+    display: flex;
+}
+.c-left{
+flex: 1;
+}
+.c-right{
+flex: 1;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.c-title{
+    font-size: 60px;
+    width: 70%;
+    font-family: 'Gochi Hand', cursive;
+    
+
+
+}
+.c-info-item{
+    display: flex;
+    align-items: center;
+    margin: 30px 0px;
+    font-weight: 300;
+    width: 70%;
+    color: #fff;
+    
+}
+.c-icon{
+    height: 30px;
+    margin-right: 10px;
+    margin-bottom: -5px;
+    color: #fff;
+}
+.c-desc{
+    font-weight: 400;
+    color: white;
+    
+    
+}
+.a-contact{
+    text-decoration:none;
+    color: #fff;
+    
+}
+.a-contact:hover{
+    color: rgb(4, 4, 73);
+}
+.scrolltotop{
+    background-color: #edaff6;
+}
+@media screen and (max-width: 480px){
+    .c-wrapper{
+      flex-direction: column;
+      padding: 0px 50px;
+    }
+    .c-title{
+        font-size: 30px;
+    }
+    .c-info-item{
+        margin: 20px 0px;
+        width: 100%;
+    }
+  }
