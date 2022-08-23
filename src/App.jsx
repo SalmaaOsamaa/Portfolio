@@ -9,7 +9,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Toggle from "./components/toggle/Toggle";
 import { ThemeContext } from "./context";
 import AnimCursor from "./components/UI/AnimCursor";
-import Navbar from "./components/Navbar/Navbar";
+// import Navbar from "./components/Navbar/Navbar";
 const App = () => {
   const [isLoading, setIsLoading] = useState(false);
   useEffect(() => {
@@ -39,7 +39,7 @@ const App = () => {
         </div>
       ) : (
         <>
-          <Navbar />
+          {/* <Navbar /> */}
 
           <AnimCursor />
           <Toggle />
