@@ -25,6 +25,7 @@ function Navbar() {
             >
         Hola, I'm Salma <CodeIcon/>
         </Link>
+        </header>
         <nav className={classes.nav} ref={navRef}>
           <Link
           
@@ -67,7 +68,7 @@ function Navbar() {
         <button className={classes.mynav} onClick={showNavbar}>
           <MenuIcon />
         </button>
-      </header>
+      
     </div>
   );
 }

@@ -62,10 +62,14 @@ justify-content: center;
 .scrolltotop{
     background-color: #edaff6;
 }
-@media screen and (max-width: 480px){
+@media screen and (min-width:320px) and (max-width: 480px){
+    .c{
+        height: 100%;
+    }
     .c-wrapper{
       flex-direction: column;
       padding: 0px 50px;
+    
     }
     .c-title{
         font-size: 30px;
@@ -74,4 +78,11 @@ justify-content: center;
         margin: 20px 0px;
         width: 100%;
     }
+   
+  }
+  @media screen and (min-width:481px) and (max-width:768px) {
+    .c{
+        height: 100%;
+    }
+    
   }

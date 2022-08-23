@@ -13,7 +13,7 @@ function About(props) {
       <div className={classes["a-left"]}>
         <div></div>
         <div className={classes["a-card"]}>
-          <img src="https://media.giphy.com/media/uB86ZyWQsnFSGYe2sA/giphy.gif" />
+          <img className={classes.gify} src="https://media.giphy.com/media/uB86ZyWQsnFSGYe2sA/giphy.gif" />
         </div>
       </div>
       <div className={classes["a-right"]}>
@@ -42,7 +42,7 @@ function About(props) {
         <div className={classes.tech}>
           <p className={classes["p-tech"]}>Technologies that i use : </p>
           <Fade left big>
-            <img src={tech} alt="techs" />
+            <img src={tech} alt="techs" className={classes.techs} />
           </Fade>
         </div>
         <div className={classes["a-resume"]}>

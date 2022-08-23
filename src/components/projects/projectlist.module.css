@@ -41,9 +41,15 @@
     margin: auto;
 }
 
-@media screen and (max-width:480px) {
+@media screen and (min-width:321px) and (max-width:480px) {
    .pl{
-    padding: 10rem;
+    padding: 5rem;
+    width: 100%;  
+    margin: auto;
+    height: 100%;
+    
+    
+    
     
    }
    .pl-texts{
@@ -53,4 +59,29 @@
 .desc{
     display: none;
 }
+}
+@media screen and (min-width:481px) and (max-width:768px) {
+    .pl{
+        padding: 2rem;
+        width: 100%;  
+        margin: auto;
+        height: 100%;
+        margin-top: 45rem;
+        
+        
+        
+        
+       }
+       .pl-texts{
+        width: 100%;
+    }
+    .title{
+        width: 100%;
+        
+    }
+    
+    .desc{
+        display: none;
+    }
+    
 }

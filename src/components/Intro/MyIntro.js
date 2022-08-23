@@ -70,7 +70,7 @@ function MyIntro() {
           
           <div className={classes["i-bg"]}>
      <Slide right>
-            <img src={me}/>
+            <img src={me} className={classes.image} />
             </Slide>
           </div>
           
