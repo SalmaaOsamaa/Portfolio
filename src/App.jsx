@@ -1,5 +1,4 @@
 import { useState, useEffect, useContext } from "react";
-import { Route, Routes, BrowserRouter } from "react-router-dom";
 import "./index.css";
 import About from "./components/about/About";
 import MyIntro from "./components/Intro/MyIntro";
@@ -9,7 +8,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Toggle from "./components/toggle/Toggle";
 import { ThemeContext } from "./context";
 import AnimCursor from "./components/UI/AnimCursor";
-// import Navbar from "./components/Navbar/Navbar";
+import Navbar from "./components/Navbar/Navbar";
 const App = () => {
   const [isLoading, setIsLoading] = useState(false);
   useEffect(() => {
@@ -39,11 +38,11 @@ const App = () => {
         </div>
       ) : (
         <>
-          {/* <Navbar /> */}
+          <Navbar />
 
           <AnimCursor />
           <Toggle />
-
+        
           <MyIntro />
           <About />
           <ProjectList />
