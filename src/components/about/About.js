@@ -32,7 +32,7 @@ function About(props) {
           technologies to keep myself updated all the time.
         </p>
         <p className={classes["a-desc"]}>
-        I worked as a frontend web developer at <b style={{color:"purple"}}>Ministry of communications and information technology </b> for 7 months where i worked on a several govermental projects, <br/> and currently i'm working as a frontend web developer at <b style={{color:"purple"}}>Ayamedica</b> which is a health care company that provides medical system for schools.
+        I worked as a frontend  web developer at <b style={{color:"purple"}}>Ministry of communications and information technology </b> for 7 months where i worked on a several govermental projects, <br/> and currently i'm working as a frontend web developer at <b style={{color:"purple"}}>Ayamedica</b> which is a health care company that provides medical system for schools.
         </p>
 
         <div className={classes.tech}>
