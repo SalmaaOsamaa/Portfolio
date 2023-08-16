@@ -49,7 +49,7 @@ flex: 1;
     margin-top: 50px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 .resume{
 text-decoration: none;
@@ -76,9 +76,13 @@ width: 60%;
     .a-left{
         width: 100%;
     }
+    .gify
+    {
+        width: 100%;
+    }
     .a-card{
       
-        width: 100%;
+        width: 80%;
     }
   .a-right{
     margin: 5px !important;

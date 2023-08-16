@@ -27,16 +27,12 @@ function About(props) {
         </p>
         <p className={classes["a-desc"]}>
           I'm a passionate, detail-oriented and versatile Front-End developer
-          who creates codes out of pretty designs. i use Javascript technologies
-          in the Front-end and the Back-End, Always learning new skills and
-          technologies to add to what I already know.
+          with <b style={{color:"purple"}}>1 year of experience</b>. <br/> i use Javascript technologies
+          in the Front-end and the Back-End, I'm always learning new skills and
+          technologies to keep myself updated all the time.
         </p>
         <p className={classes["a-desc"]}>
-          My journey started after graduating with two years i learned HTML,CSS
-          and then i started knowing more about JavaScript and how to add logic
-          to my web pages, So i started solving problems and knowing more about Data structures and algorithms 
-          then i got to know and create projects with some of Javascript frameworks like angular and libraries like React, i found my-self more into React..
-          It has transformed the way I think about front-end development so i started learning more about it.
+        I worked as a frontend web developer at <b style={{color:"purple"}}>Ministry of communications and information technology </b> for 7 months where i worked on a several govermental projects, <br/> and currently i'm working as a frontend web developer at <b style={{color:"purple"}}>Ayamedica</b> which is a health care company that provides medical system for schools.
         </p>
 
         <div className={classes.tech}>
@@ -48,10 +44,10 @@ function About(props) {
         <div className={classes["a-resume"]}>
           <a
             className={classes.resume}
-            href="https://drive.google.com/file/d/1Q7RzpBEJCcfEx7DBhwPRjqVtuJY6mpha/view?usp=sharing"
+            href="https://drive.google.com/file/d/1P7YUse_LI_758-IJS9LhSz0xWgtIpQrx/view?usp=sharing"
             target="_blank"
           >
-            <Button>Download Resume</Button>
+            <Button>Download My Resume</Button>
           </a>
         </div>
       </div>

@@ -4,6 +4,7 @@ import Slide from 'react-reveal/Slide';
 import bye from "../../Images/mymemoji.png";
 import me from "../../Images/salma2.svg"
 import "../../index.css"
+import { GrReactjs } from 'react-icons/gr';
 
 function MyIntro() {
  
@@ -42,9 +43,8 @@ function MyIntro() {
               </div>
             </div>
             <div className={classes.desc}>
-              A Full Stack Web Developer also a former ITI Trainee who
-              specializes in JavaScript Technologies (Node.js, Express, React)
-              to build complete web applications with backend API System.
+              A Front-end Web Developer also a former ITI Trainee who
+              specializes in <span style={{color: "purple"}}>ReactJs library</span> <GrReactjs size={30} color="purple" /> to build amazing web pages and to turn designs into code.
             </div>
           </div>
           </Slide>
